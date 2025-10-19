@@ -1,1 +1,1 @@
-web: gunicorn MealMate.wsgi
+web: gunicorn meal_mate.wsgi
