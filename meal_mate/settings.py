@@ -61,8 +61,14 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'meal_mate.urls'
 
-CORS_ALLOW_ALL_ORIGINS = True
+CORS_ALLOWED_ORIGINS = [
+    "http://localhost:5173",       # React local dev
+    "http://127.0.0.1:5173",       # alternate local host
+    "https://meallmate.vercel.app", # replace with your Render frontend URL
+    "https://localhost:2212",    
+]
 
+CORS_ALLOW_CREDENTIALS = True
 
 TEMPLATES = [
     {
