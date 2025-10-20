@@ -65,7 +65,9 @@ CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",       # React local dev
     "http://127.0.0.1:5173",       # alternate local host
     "https://meallmate.vercel.app", # replace with your Render frontend URL
-    "https://localhost:2212",    
+    "https://localhost:2212",
+    "https://192.168.56.1:2212",
+    "https://172.20.10.2:2212",    
 ]
 
 CORS_ALLOW_CREDENTIALS = True
