@@ -63,11 +63,13 @@ CORS_ALLOWED_ORIGINS = [
     "https://meallmate.vercel.app",  # frontend (deployed)
     "http://localhost:5173",         # local dev
     "http://127.0.0.1:5173",
+    "http://localhost:2212",
 ]
 
 CSRF_TRUSTED_ORIGINS = [
     "https://meallmate.vercel.app",
     "http://localhost:5173",
+    "http://localhost:2212",
 ]
 
 CORS_ALLOW_CREDENTIALS = True
